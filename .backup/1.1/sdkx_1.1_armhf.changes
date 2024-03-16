@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 16 Mar 2024 12:00:00 +0000
+Source: sdkx
+Binary: sdkx
+Built-For-Profiles: noudeb
+Architecture: source all
+Version: 1.1
+Distribution: mantic
+Urgency: high
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Changed-By: Alexander Krefting <kakrefting@gmail.com>
+Description:
+ sdkx       - Description of your package.
+Changes:
+ sdkx (1.1) mantic; urgency=high
+ .
+   * Initial release.
+Checksums-Sha1:
+ 4b1ae87d2065f1d19555dfe39ca14f1708844b96 458 sdkx_1.1.dsc
+ 722f0e626437d88eedf802b7ada49eee8894019e 66146 sdkx_1.1.tar.gz
+ 6fe876f803dbd6a2bb098bba442e57beb01c7489 2802 sdkx_1.1_all.deb
+ 2c77516f51f629644ab03ef8bef052e27ae22dcc 5218 sdkx_1.1_armhf.buildinfo
+Checksums-Sha256:
+ d3cd60092c83669484d5ea65a7f4b6f251702c05ebae62b4c1ce03c45a25e303 458 sdkx_1.1.dsc
+ 58d4f0d52f513691f8b4c48ca8f40eae37c747c0237e4669de116e24fd17a8a6 66146 sdkx_1.1.tar.gz
+ bd9baba812d71aea0a4e71e1de3e41bde992d7b6be744242a974ad79408785d5 2802 sdkx_1.1_all.deb
+ afe17c825029dfa8e7073f24aeeac15bb56ccb7cac1734d8383478471244bd82 5218 sdkx_1.1_armhf.buildinfo
+Files:
+ c5b57837c7e93ab1fded6b2244f6e0df 458 sdk important sdkx_1.1.dsc
+ 7bdeb7483fa2ec64997f69e72d033bdb 66146 sdk important sdkx_1.1.tar.gz
+ 6c30f37e19ab56bda8678eaee8658779 2802 sdk important sdkx_1.1_all.deb
+ a2b3cc3a8d759e7c7e141257823f1d94 5218 sdk important sdkx_1.1_armhf.buildinfo

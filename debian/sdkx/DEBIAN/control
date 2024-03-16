@@ -1,8 +1,8 @@
 Package: sdkx
-Version: 1.0-1
+Version: 1.1
 Architecture: all
 Maintainer: Alexander Krefting <kakrefting@gmail.com>
-Installed-Size: 16
+Installed-Size: 17
 Section: sdk
 Priority: important
 Description: Description of your package.

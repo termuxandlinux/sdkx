@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Function to install the SDK
+install_sdk() {
+    sdk_version=$1
+    /usr/share/sdkx/src/sdk.sh --sdk $sdk_version
+}
+
 # Function to install
 install() {
     /usr/share/sdkx/src/install.sh
@@ -17,19 +23,20 @@ create_project() {
 # Function to forward to build.sh
 build_project() {
     project_name=$1
-    sdkx_path=$2
+    sdk_path=$2
 
-    # Forward to build.sh with project_name and sdkx_path
-    /usr/share/sdkx/src/build.sh $project_name $sdkx_path
+    # Forward to build.sh with project_name and sdk_path
+    /usr/share/sdkx/src/build.sh $project_name $sdk_path
 }
 
 # Function to display help
 show_help() {
-    echo "Usage: sdkxx.sh OPTIONS"
+    echo "Usage: sdkx.sh OPTIONS"
     echo "Options:"
     echo "  --install                          Install the SDK"
     echo "  --project <project_name> <package_name> Create a new project"
     echo "  --build <project_name> <path to android.jar> Build the APK"
+    echo "  --sdk <SDK version>                Install a specific SDK version"
     echo "  --help                             Display this help"
 }
 
@@ -43,8 +50,11 @@ main() {
         create_project $project_name $package_name
     elif [ "$1" == "--build" ]; then
         project_name=$2
-        sdkx_path=$3
-        build_project $project_name $sdkx_path
+        sdk_path=$3
+        build_project $project_name $sdk_path
+    elif [ "$1" == "--sdk" ]; then
+        sdk_version=$2
+        install_sdk $sdk_version
     elif [ "$1" == "--help" ]; then
         show_help
     else

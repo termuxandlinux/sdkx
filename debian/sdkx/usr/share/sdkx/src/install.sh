@@ -43,11 +43,9 @@ cd $HOME
 wget subuntu.netlify.app/files/sdk-bash.tar.xz
 tar -xJf sdk-bash.tar.xz
 source .bash_profile
+rm sdk-bash.tar.xz
 echo " "
-echo "[+] Path set"
-echo "[+] Install SDK-28, SDK-29, SDK-30 and SDK-31"
-echo " "
-sdkmanager "platforms;android-28" "platforms;android-29" "platforms;android-30" "platforms;android-31" 
+echo "[+] run: source ~/.bash_profile" 
 echo " "
 echo "[+] Succesfull"
 echo "[+] Finish, good bye"

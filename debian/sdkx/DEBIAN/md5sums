@@ -1,5 +1,6 @@
-9639117db4f529092b6e7cf905e76948  bin/sdkx
-e8810c6a8c2af2c28acf3ef2284ab515  usr/share/doc/sdkx/changelog.Debian.gz
+a1d533038653fcf214d497d830c2d7e4  bin/sdkx
+96a770440a6e61cae55bb9c8e30086b0  usr/share/doc/sdkx/changelog.gz
 cb2b871cae3f45d0180c73656c4dad63  usr/share/sdkx/src/build.sh
-037ad4a8d21df0da7c152c2900604323  usr/share/sdkx/src/install.sh
+77b9689ea22aae2cb9fd4cab90e6a3f5  usr/share/sdkx/src/install.sh
 a11b5aebfd9a66cfd8b7916e29dfd554  usr/share/sdkx/src/project.sh
+9e38ce7954c5ad7dfe74e4f1a6ca73d6  usr/share/sdkx/src/sdk.sh
