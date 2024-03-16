@@ -1,0 +1,10 @@
+Package: sdkx
+Version: 1.0-1
+Architecture: all
+Maintainer: Alexander Krefting <kakrefting@gmail.com>
+Installed-Size: 16
+Section: sdk
+Priority: important
+Description: Description of your package.
+ A brief description of your package goes here. This can be multiple lines
+ if necessary.
