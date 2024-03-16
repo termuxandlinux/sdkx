@@ -8,8 +8,8 @@ Build-Depends: debhelper-compat (= 12)
 Package-List:
  sdkx deb sdk important arch=all
 Checksums-Sha1:
- 722f0e626437d88eedf802b7ada49eee8894019e 66146 sdkx_1.1.tar.gz
+ 38222ee8a879bbf477319d5fdfe7b74de022a12e 136487 sdkx_1.1.tar.gz
 Checksums-Sha256:
- 58d4f0d52f513691f8b4c48ca8f40eae37c747c0237e4669de116e24fd17a8a6 66146 sdkx_1.1.tar.gz
+ 6a7b63b76439f7f44d5d0f4578216b1f3c2f17ea53fd452890d64d5a15c91b49 136487 sdkx_1.1.tar.gz
 Files:
- 7bdeb7483fa2ec64997f69e72d033bdb 66146 sdkx_1.1.tar.gz
+ 9759a813013c7226a8aa19a56f0670a3 136487 sdkx_1.1.tar.gz

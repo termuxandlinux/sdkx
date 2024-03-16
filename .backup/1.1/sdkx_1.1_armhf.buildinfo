@@ -4,17 +4,17 @@ Binary: sdkx
 Architecture: all source
 Version: 1.1
 Checksums-Md5:
- c5b57837c7e93ab1fded6b2244f6e0df 458 sdkx_1.1.dsc
- 6c30f37e19ab56bda8678eaee8658779 2802 sdkx_1.1_all.deb
+ 14ef152fb030f1c8543a2c2cc3b39d08 461 sdkx_1.1.dsc
+ f3808158c57fe1d9949ff0fa8a1cc022 2802 sdkx_1.1_all.deb
 Checksums-Sha1:
- 4b1ae87d2065f1d19555dfe39ca14f1708844b96 458 sdkx_1.1.dsc
- 6fe876f803dbd6a2bb098bba442e57beb01c7489 2802 sdkx_1.1_all.deb
+ 73f85e4ab2b59959d851aff8385c1c817867f8df 461 sdkx_1.1.dsc
+ ac5ea999749e382bf01ef475a627fc353950a40e 2802 sdkx_1.1_all.deb
 Checksums-Sha256:
- d3cd60092c83669484d5ea65a7f4b6f251702c05ebae62b4c1ce03c45a25e303 458 sdkx_1.1.dsc
- bd9baba812d71aea0a4e71e1de3e41bde992d7b6be744242a974ad79408785d5 2802 sdkx_1.1_all.deb
+ c8cab1dad46c06cee19e43ea6480cec5eef38b0eba6265e81b99f0d1006ff1f5 461 sdkx_1.1.dsc
+ 58e2e5ce7625b66d50488092b4bdd7398556d5bdfda5d1050ab286a9f2d8963b 2802 sdkx_1.1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: armhf
-Build-Date: Sat, 16 Mar 2024 18:58:13 +0100
+Build-Date: Sat, 16 Mar 2024 19:02:35 +0100
 Installed-Build-Depends:
  autoconf (= 2.71-3),
  automake (= 1:1.16.5-1.3),
